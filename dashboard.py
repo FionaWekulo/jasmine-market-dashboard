@@ -26,7 +26,7 @@ st.set_page_config(
 )
 
 st.title("💊 Exploring Digital Healthcare Market Research Dashboard")
-st.markdown("### Real-time insights google form responses")
+st.markdown("### AI insights google form responses")
 st.markdown("---")
 
 # Initialize clients
@@ -397,4 +397,4 @@ if st.button("🔄 Refresh All Data"):
     st.rerun()
 
 st.markdown(f"---")
-st.markdown(f"*Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Auto-refreshes every 5 minutes*")
+st.markdown(f"*Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ")
